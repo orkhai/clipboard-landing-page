@@ -1,0 +1,315 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.125rem;
+  min-height: 100vh;
+  background: url(images/bg-header-mobile.png) no-repeat;
+  background-size: contain;
+  margin: 0;
+}
+
+.top {
+  text-align: center;
+  padding: 5rem 1.8rem 2rem 1.8rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2.3rem;
+  color: hsl(210, 10%, 33%);
+}
+
+h2 {
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  font-size: 1.03rem;
+  line-height: 1.6rem;
+  color: hsl(201, 11%, 66%);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+
+.ios {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.05rem;
+  padding: 0.8rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  border-style: none;
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  box-shadow: 0 0.125rem 0.125rem hsl(210, 10%, 33%);
+}
+
+.ios:hover {
+  cursor: pointer;
+  background-color: hsl(171, 66%, 48%);
+}
+
+.mac {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.05rem;
+  padding: 0.8rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  border-style: none;
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+  box-shadow: 0 0.125rem 0.125rem hsl(210, 10%, 33%);
+}
+
+.mac:hover {
+  cursor: pointer;
+  background-color: hsl(233, 100%, 73%);
+}
+
+h3:hover {
+  color: hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+
+.socials img:hover {
+  color: hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+
+.middle {
+  text-align: center;
+  padding: 1.3rem 1.8rem 2rem 1.8rem;
+}
+
+.computer img {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.middle-content h2 {
+  margin-bottom: -0.4rem;
+  margin-top: 2rem;
+}
+
+.bottom {
+  text-align: center;
+  padding: 5rem 1.8rem 2rem 1.8rem;
+}
+
+.devices img {
+  width: 100%;
+  margin: 2rem 0 3rem;
+}
+
+.functions {
+  margin-top: 5rem;
+}
+
+.functions p {
+  margin-bottom: 3.5rem;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6rem;
+}
+
+.logos img {
+  width: 8rem;
+  margin: 1.5rem auto;
+}
+
+.clipboard p {
+  font-size: 1.04rem;
+}
+
+footer {
+  text-align: center;
+  background-color: hsl(201, 11%, 95%);
+  color: hsl(210, 10%, 33%);
+  padding: 3rem 0;
+}
+
+footer img {
+  width: 3.5rem;
+}
+
+.socials {
+  width: 15rem;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socials img {
+  width: 1.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1000px) {
+  body {
+    background: url(images/bg-header-desktop.png) no-repeat;
+  }
+
+  .top {
+    padding: 8rem 22rem 4rem 22rem;
+  }
+
+  .top h1 {
+    font-size: 2.35rem;
+  }
+
+  .top p:first-of-type {
+    font-size: 1.1rem;
+  }
+
+  .top h2 {
+    font-size: 2rem;
+  }
+
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .ios {
+    width: 12rem;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .mac {
+    width: 12rem;
+    font-size: 0.9rem;
+  }
+
+  .middle {
+    display: flex;
+  }
+
+  .computer img {
+    position: relative;
+    right: 6rem;
+    height: 32rem;
+  }
+
+  .middle-content {
+    text-align: left;
+    width: 22rem;
+    margin-top: 2rem;
+  }
+
+  .bottom-top {
+    padding: 0.1rem 20rem 0 20rem;
+  }
+
+  .bottom h2 {
+    font-size: 2rem;
+  }
+
+  .devices {
+    margin-top: 2.5rem;
+  }
+
+  .functions {
+    display: flex;
+    margin: 4rem 4rem 1rem 4rem;
+  }
+
+  .functions h2 {
+    font-size: 1.45rem;
+  }
+
+  .blacklists {
+    width: 23rem;
+    margin-right: 1.7rem;
+  }
+
+  .text {
+    width: 23rem;
+    margin-right: 1.7rem;
+    padding-top: 0.5rem;
+  }
+
+  .preview {
+    width: 23rem;
+    margin-top: 0.5rem;
+  }
+
+  .logos {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem auto 8rem;
+  }
+
+  .logos img {
+    width: 9rem;
+    height: 2.6rem;
+  }
+
+  .clipboard {
+    padding: 0.1rem 20.5rem 0 20.5rem;
+  }
+
+  footer {
+    padding: 0;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10rem;
+    margin: auto;
+  }
+
+  .bottom-logo {
+    margin-right: 5rem;
+  }
+
+  .bottom-logo img {
+    width: 3rem;
+  }
+
+  nav {
+    display: flex;
+    text-align: left;
+    position: relative;
+    left: 5rem;
+  }
+
+  nav h3 {
+    margin-right: 2rem;
+    font-size: 0.9rem;
+  }
+
+  .faq {
+    margin-right: 2rem;
+  }
+
+  .privacy {
+    margin-right: 2rem;
+  }
+
+  .socials {
+    position: relative;
+    left: 7rem;
+  }
+}
